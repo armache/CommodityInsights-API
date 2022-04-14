@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This is the backend project for [Commodity Insights](https://commodity-insights.azurewebsites.net/) application 
+This is the backend project for [Commodity Insights](https://commodity-insights.azurewebsites.net/) application.
 
 On start up it processes Excel file using open source SpreadsheetLight library, then via the code first approach creates and populates the database in SQL Server.
 
