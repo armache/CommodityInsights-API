@@ -2,7 +2,7 @@
 
 namespace AngloAmerican.Api.Services
 {
-    public interface ITradeDataService
+    public interface IDataVendorService
     {
         TradeData ExtractDataFromExcel();
     }

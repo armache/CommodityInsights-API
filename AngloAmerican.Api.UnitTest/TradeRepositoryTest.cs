@@ -10,7 +10,7 @@ namespace AngloAmerican.Api.UnitTest
 {
     public class TradeRepositoryTest: IClassFixture<BaseTradeRepositoryTest>
     {
-        private Mock<ITradeDataService> _tradeDataServiceMock;
+        private Mock<IDataVendorService> _tradeDataServiceMock;
         private readonly IPnlService _pnlService;
         private readonly BaseTradeRepositoryTest _fixture;
 
@@ -19,7 +19,7 @@ namespace AngloAmerican.Api.UnitTest
             _fixture = fixture;
             _pnlService = new PnlService();
 
-            _tradeDataServiceMock = new Mock<ITradeDataService>();
+            _tradeDataServiceMock = new Mock<IDataVendorService>();
             _tradeDataServiceMock.Setup(a => a.ExtractDataFromExcel()).Returns(_fixture.MockedTradeData);
         }
 

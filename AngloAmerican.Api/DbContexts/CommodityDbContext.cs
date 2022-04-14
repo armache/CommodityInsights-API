@@ -7,7 +7,7 @@ namespace AngloAmerican.Api.DbContexts
 {
     public class CommodityDbContext : DbContext
     {
-        private readonly ITradeDataService _tradeDataService;
+        private readonly IDataVendorService _tradeDataService;
         private TradeData? _tradeData = null;
 
         public DbSet<Model> Models { get; set; } = null!;
@@ -15,7 +15,7 @@ namespace AngloAmerican.Api.DbContexts
         public DbSet<TradeLog> TradeLogs { get; set; } = null!;
 
         public CommodityDbContext(
-            DbContextOptions<CommodityDbContext> options, ITradeDataService tradeDataService) : base(options)
+            DbContextOptions<CommodityDbContext> options, IDataVendorService tradeDataService) : base(options)
         {
             _tradeDataService = tradeDataService;
         }

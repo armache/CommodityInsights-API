@@ -5,11 +5,11 @@ using SpreadsheetLight;
 
 namespace AngloAmerican.Api.Services
 {
-    public class TradeDataService : ITradeDataService
+    public class DataVendorService : IDataVendorService
     {
         private readonly DataConfig _dataConfig;
 
-        public TradeDataService(IOptions<DataConfig> dataConfig)
+        public DataVendorService(IOptions<DataConfig> dataConfig)
         {
             _dataConfig = dataConfig.Value;
         }

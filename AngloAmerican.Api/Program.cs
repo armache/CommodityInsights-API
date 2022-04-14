@@ -21,7 +21,7 @@ builder.Services.AddCors(options =>
     });
 });
 
-builder.Services.AddScoped<ITradeDataService, TradeDataService>();
+builder.Services.AddScoped<IDataVendorService, DataVendorService>();
 builder.Services.AddScoped<IPnlService, PnlService>();
 builder.Services.AddScoped<ITradeRepository, TradeRepository>();
 
@@ -55,8 +55,6 @@ if (!app.Environment.IsDevelopment())
         options.RoutePrefix = string.Empty;
     });
 }
-
-
 
 app.UseHttpsRedirection();
 
