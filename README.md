@@ -27,6 +27,8 @@ Products and TradeLogs are exposed to other systems via API endpoints:
 
 API link: https://angloamericanapi.azurewebsites.net/
 
+Frontend source code: https://github.com/armache/commodity-insights
+
 ## Built With
 
 - .NET 6
