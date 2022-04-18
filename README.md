@@ -45,3 +45,6 @@ Frontend source code: https://github.com/armache/commodity-insights
 ###### CommodityDbContext as DGML
 
 ![alt text](https://raw.githubusercontent.com/armache/CommodityInsights-API/master/CommodityDbContext.png)
+
+###### Products structure as JSON
+![alt text](https://raw.githubusercontent.com/armache/CommodityInsights-API/master/prod_structure.png)
