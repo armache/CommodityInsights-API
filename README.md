@@ -40,3 +40,8 @@ Frontend source code: https://github.com/armache/commodity-insights
 - Sqllite (in-memory)
 - XUnit
 - Moq
+
+## Points of interest
+###### CommodityDbContext as DGML
+
+![alt text](https://raw.githubusercontent.com/armache/CommodityInsights-API/master/CommodityDbContext.png)
